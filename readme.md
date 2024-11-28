@@ -16,3 +16,9 @@ When icestorm is installed, to build the bitstream and program the board:
 make
 make prog
 ```
+
+## uart upgrade application
+
+```
+python3 .\scripts\uart_bootloader.py COM7 .\lighthouse.bin
+```
