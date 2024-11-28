@@ -17,7 +17,7 @@ make
 make prog
 ```
 
-## uart upgrade application
+## UART upgrade application
 
 ```
 python3 .\scripts\uart_bootloader.py COM7 .\lighthouse.bin
